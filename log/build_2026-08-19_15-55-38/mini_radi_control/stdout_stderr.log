@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating mini_radi_control.egg-info
+writing mini_radi_control.egg-info/PKG-INFO
+writing dependency_links to mini_radi_control.egg-info/dependency_links.txt
+writing entry points to mini_radi_control.egg-info/entry_points.txt
+writing requirements to mini_radi_control.egg-info/requires.txt
+writing top-level names to mini_radi_control.egg-info/top_level.txt
+writing manifest file 'mini_radi_control.egg-info/SOURCES.txt'
+reading manifest file 'mini_radi_control.egg-info/SOURCES.txt'
+writing manifest file 'mini_radi_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kushagra/mini_radi_ws/install/mini_radi_control/lib/python3.10/site-packages/mini-radi-control.egg-link (link to .)
+Installing joint_state_publisher script to /home/kushagra/mini_radi_ws/install/mini_radi_control/lib/mini_radi_control
+
+Installed /home/kushagra/mini_radi_ws/build/mini_radi_control
+running symlink_data
+creating /home/kushagra/mini_radi_ws/install/mini_radi_control/share/ament_index
+creating /home/kushagra/mini_radi_ws/install/mini_radi_control/share/ament_index/resource_index
+creating /home/kushagra/mini_radi_ws/install/mini_radi_control/share/ament_index/resource_index/packages
+symbolically linking /home/kushagra/mini_radi_ws/build/mini_radi_control/resource/mini_radi_control -> /home/kushagra/mini_radi_ws/install/mini_radi_control/share/ament_index/resource_index/packages
+symbolically linking /home/kushagra/mini_radi_ws/build/mini_radi_control/package.xml -> /home/kushagra/mini_radi_ws/install/mini_radi_control/share/mini_radi_control

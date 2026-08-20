@@ -1,0 +1,17 @@
+/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/urdf/mini_radi.urdf
+/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/launch/display.launch.py
+/home/kushagra/mini_radi_ws/install/mini_radi_description/share/ament_index/resource_index/package_run_dependencies/mini_radi_description
+/home/kushagra/mini_radi_ws/install/mini_radi_description/share/ament_index/resource_index/parent_prefix_path/mini_radi_description
+/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/environment/ament_prefix_path.sh
+/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/environment/ament_prefix_path.dsv
+/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/environment/path.sh
+/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/environment/path.dsv
+/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/local_setup.bash
+/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/local_setup.sh
+/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/local_setup.zsh
+/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/local_setup.dsv
+/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/package.dsv
+/home/kushagra/mini_radi_ws/install/mini_radi_description/share/ament_index/resource_index/packages/mini_radi_description
+/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/cmake/mini_radi_descriptionConfig.cmake
+/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/cmake/mini_radi_descriptionConfig-version.cmake
+/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/package.xml

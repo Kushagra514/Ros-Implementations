@@ -1,0 +1,24 @@
+[0.611s] Invoking command in '/home/kushagra/mini_radi_ws/build/mini_radi_control': PYTHONPATH=/home/kushagra/mini_radi_ws/build/mini_radi_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kushagra/mini_radi_ws/install/mini_radi_control/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kushagra/mini_radi_ws/build/mini_radi_control/build --no-deps symlink_data
+[0.748s] running develop
+[0.797s] running egg_info
+[0.797s] creating mini_radi_control.egg-info
+[0.797s] writing mini_radi_control.egg-info/PKG-INFO
+[0.797s] writing dependency_links to mini_radi_control.egg-info/dependency_links.txt
+[0.797s] writing entry points to mini_radi_control.egg-info/entry_points.txt
+[0.798s] writing requirements to mini_radi_control.egg-info/requires.txt
+[0.798s] writing top-level names to mini_radi_control.egg-info/top_level.txt
+[0.798s] writing manifest file 'mini_radi_control.egg-info/SOURCES.txt'
+[0.798s] reading manifest file 'mini_radi_control.egg-info/SOURCES.txt'
+[0.798s] writing manifest file 'mini_radi_control.egg-info/SOURCES.txt'
+[0.798s] running build_ext
+[0.798s] Creating /home/kushagra/mini_radi_ws/install/mini_radi_control/lib/python3.10/site-packages/mini-radi-control.egg-link (link to .)
+[0.799s] Installing joint_state_publisher script to /home/kushagra/mini_radi_ws/install/mini_radi_control/lib/mini_radi_control
+[0.799s] 
+[0.799s] Installed /home/kushagra/mini_radi_ws/build/mini_radi_control
+[0.799s] running symlink_data
+[0.799s] creating /home/kushagra/mini_radi_ws/install/mini_radi_control/share/ament_index
+[0.799s] creating /home/kushagra/mini_radi_ws/install/mini_radi_control/share/ament_index/resource_index
+[0.799s] creating /home/kushagra/mini_radi_ws/install/mini_radi_control/share/ament_index/resource_index/packages
+[0.799s] symbolically linking /home/kushagra/mini_radi_ws/build/mini_radi_control/resource/mini_radi_control -> /home/kushagra/mini_radi_ws/install/mini_radi_control/share/ament_index/resource_index/packages
+[0.799s] symbolically linking /home/kushagra/mini_radi_ws/build/mini_radi_control/package.xml -> /home/kushagra/mini_radi_ws/install/mini_radi_control/share/mini_radi_control
+[0.825s] Invoked command in '/home/kushagra/mini_radi_ws/build/mini_radi_control' returned '0': PYTHONPATH=/home/kushagra/mini_radi_ws/build/mini_radi_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kushagra/mini_radi_ws/install/mini_radi_control/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kushagra/mini_radi_ws/build/mini_radi_control/build --no-deps symlink_data

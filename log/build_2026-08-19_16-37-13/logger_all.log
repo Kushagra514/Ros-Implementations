@@ -1,0 +1,279 @@
+[0.105s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.105s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=7, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7b35aeeeb7f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b35af064430>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b35af064430>>)
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.212s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kushagra/mini_radi_ws'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_behavior) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_behavior) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_behavior) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_behavior) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_behavior) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_behavior) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_behavior) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_behavior) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_behavior) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_behavior) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_behavior) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_behavior) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_behavior) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_behavior) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_control) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_control) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_control) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_control) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_control) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_control) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_control) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_control) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_control) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mini_radi_control' with type 'ros.ament_python' and name 'mini_radi_control'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_description) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_description) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_description) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_description) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_description) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_description) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_description) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_description) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_description) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mini_radi_description' with type 'ros.ament_cmake' and name 'mini_radi_description'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_gazebo) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_gazebo) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_gazebo) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_gazebo) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_gazebo) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_gazebo) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_gazebo) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_gazebo) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_gazebo) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_gazebo) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_gazebo) by extension 'python'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mini_radi_gazebo' with type 'cmake' and name 'mini_radi_gazebo'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_gui) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_gui) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_gui) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_gui) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_gui) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_gui) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_gui) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_gui) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_gui) by extension 'ros'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_gui) by extensions ['cmake', 'python']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_gui) by extension 'cmake'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_gui) by extension 'python'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_gui) by extensions ['python_setup_py']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_gui) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_sensors) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_sensors) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_sensors) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_sensors) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_sensors) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_sensors) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_sensors) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_sensors) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_sensors) by extension 'ros'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_sensors) by extensions ['cmake', 'python']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_sensors) by extension 'cmake'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_sensors) by extension 'python'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_sensors) by extensions ['python_setup_py']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_radi_sensors) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.259s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/kushagra/mini_radi_ws/install
+[0.260s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_control' build argument 'cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_control' build argument 'cmake_target' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.296s] DEBUG:colcon.colcon_core.verb:Building package 'mini_radi_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kushagra/mini_radi_ws/build/mini_radi_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kushagra/mini_radi_ws/install/mini_radi_control', 'merge_install': False, 'path': '/home/kushagra/mini_radi_ws/src/mini_radi_control', 'symlink_install': True, 'test_result_base': None}
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_description' build argument 'cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_description' build argument 'cmake_target' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.296s] DEBUG:colcon.colcon_core.verb:Building package 'mini_radi_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kushagra/mini_radi_ws/build/mini_radi_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kushagra/mini_radi_ws/install/mini_radi_description', 'merge_install': False, 'path': '/home/kushagra/mini_radi_ws/src/mini_radi_description', 'symlink_install': True, 'test_result_base': None}
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'mini_radi_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.297s] DEBUG:colcon.colcon_core.verb:Building package 'mini_radi_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kushagra/mini_radi_ws/build/mini_radi_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kushagra/mini_radi_ws/install/mini_radi_gazebo', 'merge_install': False, 'path': '/home/kushagra/mini_radi_ws/src/mini_radi_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.297s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.298s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.298s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kushagra/mini_radi_ws/src/mini_radi_control' with build type 'ament_python'
+[0.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_radi_control', 'ament_prefix_path')
+[0.301s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kushagra/mini_radi_ws/install/mini_radi_control/share/mini_radi_control/hook/ament_prefix_path.ps1'
+[0.302s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kushagra/mini_radi_ws/install/mini_radi_control/share/mini_radi_control/hook/ament_prefix_path.dsv'
+[0.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kushagra/mini_radi_ws/install/mini_radi_control/share/mini_radi_control/hook/ament_prefix_path.sh'
+[0.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.303s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.305s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kushagra/mini_radi_ws/src/mini_radi_description' with build type 'ament_cmake'
+[0.305s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kushagra/mini_radi_ws/src/mini_radi_description'
+[0.306s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.306s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.308s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kushagra/mini_radi_ws/src/mini_radi_gazebo'
+[0.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.309s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.477s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kushagra/mini_radi_ws/src/mini_radi_control'
+[0.478s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.478s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kushagra/mini_radi_ws/build/mini_radi_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kushagra/mini_radi_ws/install/mini_radi_control:/opt/ros/humble /usr/bin/cmake --build /home/kushagra/mini_radi_ws/build/mini_radi_description -- -j7 -l7
+[0.492s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kushagra/mini_radi_ws/build/mini_radi_gazebo': /usr/bin/cmake --build /home/kushagra/mini_radi_ws/build/mini_radi_gazebo -- -j7 -l7
+[0.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kushagra/mini_radi_ws/build/mini_radi_gazebo' returned '0': /usr/bin/cmake --build /home/kushagra/mini_radi_ws/build/mini_radi_gazebo -- -j7 -l7
+[0.534s] WARNING:colcon.colcon_cmake.task.cmake.build:Could not run installation step for package 'mini_radi_gazebo' because it has no 'install' target
+[0.535s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mini_radi_gazebo)
+[0.539s] Level 1:colcon.colcon_core.environment:checking '/home/kushagra/mini_radi_ws/install/mini_radi_gazebo' for CMake module files
+[0.539s] Level 1:colcon.colcon_core.environment:checking '/home/kushagra/mini_radi_ws/install/mini_radi_gazebo' for CMake config files
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/kushagra/mini_radi_ws/install/mini_radi_gazebo/bin'
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/kushagra/mini_radi_ws/install/mini_radi_gazebo/lib/pkgconfig/mini_radi_gazebo.pc'
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/kushagra/mini_radi_ws/install/mini_radi_gazebo/lib/python3.10/site-packages'
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/kushagra/mini_radi_ws/install/mini_radi_gazebo/bin'
+[0.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushagra/mini_radi_ws/install/mini_radi_gazebo/share/mini_radi_gazebo/package.ps1'
+[0.542s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kushagra/mini_radi_ws/install/mini_radi_gazebo/share/mini_radi_gazebo/package.dsv'
+[0.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushagra/mini_radi_ws/install/mini_radi_gazebo/share/mini_radi_gazebo/package.sh'
+[0.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushagra/mini_radi_ws/install/mini_radi_gazebo/share/mini_radi_gazebo/package.bash'
+[0.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushagra/mini_radi_ws/install/mini_radi_gazebo/share/mini_radi_gazebo/package.zsh'
+[0.544s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kushagra/mini_radi_ws/install/mini_radi_gazebo/share/colcon-core/packages/mini_radi_gazebo)
+[0.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kushagra/mini_radi_ws/build/mini_radi_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kushagra/mini_radi_ws/install/mini_radi_control:/opt/ros/humble /usr/bin/cmake --build /home/kushagra/mini_radi_ws/build/mini_radi_description -- -j7 -l7
+[0.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kushagra/mini_radi_ws/build/mini_radi_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kushagra/mini_radi_ws/install/mini_radi_control:/opt/ros/humble /usr/bin/cmake --install /home/kushagra/mini_radi_ws/build/mini_radi_description
+[0.582s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mini_radi_description)
+[0.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kushagra/mini_radi_ws/build/mini_radi_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kushagra/mini_radi_ws/install/mini_radi_control:/opt/ros/humble /usr/bin/cmake --install /home/kushagra/mini_radi_ws/build/mini_radi_description
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/kushagra/mini_radi_ws/install/mini_radi_description' for CMake module files
+[0.584s] Level 1:colcon.colcon_core.environment:checking '/home/kushagra/mini_radi_ws/install/mini_radi_description' for CMake config files
+[0.585s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_radi_description', 'cmake_prefix_path')
+[0.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/hook/cmake_prefix_path.ps1'
+[0.586s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/hook/cmake_prefix_path.dsv'
+[0.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/hook/cmake_prefix_path.sh'
+[0.587s] Level 1:colcon.colcon_core.environment:checking '/home/kushagra/mini_radi_ws/install/mini_radi_description/bin'
+[0.587s] Level 1:colcon.colcon_core.environment:checking '/home/kushagra/mini_radi_ws/install/mini_radi_description/lib/pkgconfig/mini_radi_description.pc'
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/home/kushagra/mini_radi_ws/install/mini_radi_description/lib/python3.10/site-packages'
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/home/kushagra/mini_radi_ws/install/mini_radi_description/bin'
+[0.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/package.ps1'
+[0.589s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/package.dsv'
+[0.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/package.sh'
+[0.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/package.bash'
+[0.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/package.zsh'
+[0.592s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kushagra/mini_radi_ws/install/mini_radi_description/share/colcon-core/packages/mini_radi_description)
+[0.592s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mini_radi_description)
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/kushagra/mini_radi_ws/install/mini_radi_description' for CMake module files
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/kushagra/mini_radi_ws/install/mini_radi_description' for CMake config files
+[0.594s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_radi_description', 'cmake_prefix_path')
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/hook/cmake_prefix_path.ps1'
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/hook/cmake_prefix_path.dsv'
+[0.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/hook/cmake_prefix_path.sh'
+[0.595s] Level 1:colcon.colcon_core.environment:checking '/home/kushagra/mini_radi_ws/install/mini_radi_description/bin'
+[0.595s] Level 1:colcon.colcon_core.environment:checking '/home/kushagra/mini_radi_ws/install/mini_radi_description/lib/pkgconfig/mini_radi_description.pc'
+[0.595s] Level 1:colcon.colcon_core.environment:checking '/home/kushagra/mini_radi_ws/install/mini_radi_description/lib/python3.10/site-packages'
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/home/kushagra/mini_radi_ws/install/mini_radi_description/bin'
+[0.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/package.ps1'
+[0.596s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/package.dsv'
+[0.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/package.sh'
+[0.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/package.bash'
+[0.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushagra/mini_radi_ws/install/mini_radi_description/share/mini_radi_description/package.zsh'
+[0.598s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kushagra/mini_radi_ws/install/mini_radi_description/share/colcon-core/packages/mini_radi_description)
+[0.788s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_data, setopt, clean, upload_docs, bdist, symlink_data, build_py, build_scripts, bdist_egg, install_scripts, rotate, register, check, build_clib, install, alias, easy_install, dist_info, install_lib, bdist_rpm, upload, bdist_dumb, build, install_egg_info, sdist, develop, test, saveopts, install_headers, build_ext, egg_info
+[0.966s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --no-user-cfg, --local-snapshots-ok, --install-layout, --optimize, --site-dirs, --egg-path, --version, --exclude-scripts, --force-installation-into-system-dir, --quiet, --always-copy, --help, --always-unzip, --user, --verbose, --upgrade, --no-find-links, --prefix, --no-deps, --record, --editable, --script-dir, --multi-version, --build-directory, --uninstall, --index-url, --allow-hosts, --dry-run, --find-links, --zip-ok, --install-dir
+[0.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kushagra/mini_radi_ws/build/mini_radi_control': PYTHONPATH=/home/kushagra/mini_radi_ws/build/mini_radi_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kushagra/mini_radi_ws/install/mini_radi_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kushagra/mini_radi_ws/build/mini_radi_control/build --no-deps symlink_data
+[1.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_radi_control', 'pythonpath_develop')
+[1.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kushagra/mini_radi_ws/build/mini_radi_control/share/mini_radi_control/hook/pythonpath_develop.ps1'
+[1.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kushagra/mini_radi_ws/build/mini_radi_control' returned '0': PYTHONPATH=/home/kushagra/mini_radi_ws/build/mini_radi_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kushagra/mini_radi_ws/install/mini_radi_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kushagra/mini_radi_ws/build/mini_radi_control/build --no-deps symlink_data
+[1.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kushagra/mini_radi_ws/build/mini_radi_control/share/mini_radi_control/hook/pythonpath_develop.dsv'
+[1.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kushagra/mini_radi_ws/build/mini_radi_control/share/mini_radi_control/hook/pythonpath_develop.sh'
+[1.245s] Level 1:colcon.colcon_core.environment:checking '/home/kushagra/mini_radi_ws/install/mini_radi_control' for CMake module files
+[1.245s] Level 1:colcon.colcon_core.environment:checking '/home/kushagra/mini_radi_ws/install/mini_radi_control' for CMake config files
+[1.245s] Level 1:colcon.colcon_core.environment:checking '/home/kushagra/mini_radi_ws/install/mini_radi_control/lib'
+[1.245s] Level 1:colcon.colcon_core.environment:checking '/home/kushagra/mini_radi_ws/install/mini_radi_control/bin'
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/kushagra/mini_radi_ws/install/mini_radi_control/lib/pkgconfig/mini_radi_control.pc'
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/kushagra/mini_radi_ws/install/mini_radi_control/lib/python3.10/site-packages'
+[1.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_radi_control', 'pythonpath')
+[1.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kushagra/mini_radi_ws/install/mini_radi_control/share/mini_radi_control/hook/pythonpath.ps1'
+[1.246s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kushagra/mini_radi_ws/install/mini_radi_control/share/mini_radi_control/hook/pythonpath.dsv'
+[1.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kushagra/mini_radi_ws/install/mini_radi_control/share/mini_radi_control/hook/pythonpath.sh'
+[1.247s] Level 1:colcon.colcon_core.environment:checking '/home/kushagra/mini_radi_ws/install/mini_radi_control/bin'
+[1.247s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mini_radi_control)
+[1.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushagra/mini_radi_ws/install/mini_radi_control/share/mini_radi_control/package.ps1'
+[1.248s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kushagra/mini_radi_ws/install/mini_radi_control/share/mini_radi_control/package.dsv'
+[1.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushagra/mini_radi_ws/install/mini_radi_control/share/mini_radi_control/package.sh'
+[1.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushagra/mini_radi_ws/install/mini_radi_control/share/mini_radi_control/package.bash'
+[1.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushagra/mini_radi_ws/install/mini_radi_control/share/mini_radi_control/package.zsh'
+[1.249s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kushagra/mini_radi_ws/install/mini_radi_control/share/colcon-core/packages/mini_radi_control)
+[1.249s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.250s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.250s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.250s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.258s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.258s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.258s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.270s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.271s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kushagra/mini_radi_ws/install/local_setup.ps1'
+[1.272s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kushagra/mini_radi_ws/install/_local_setup_util_ps1.py'
+[1.273s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kushagra/mini_radi_ws/install/setup.ps1'
+[1.275s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kushagra/mini_radi_ws/install/local_setup.sh'
+[1.275s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kushagra/mini_radi_ws/install/_local_setup_util_sh.py'
+[1.276s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kushagra/mini_radi_ws/install/setup.sh'
+[1.277s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kushagra/mini_radi_ws/install/local_setup.bash'
+[1.278s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kushagra/mini_radi_ws/install/setup.bash'
+[1.279s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kushagra/mini_radi_ws/install/local_setup.zsh'
+[1.283s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kushagra/mini_radi_ws/install/setup.zsh'

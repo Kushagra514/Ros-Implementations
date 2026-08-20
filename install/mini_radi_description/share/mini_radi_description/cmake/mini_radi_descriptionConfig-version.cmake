@@ -1,0 +1,1 @@
+/home/kushagra/mini_radi_ws/build/mini_radi_description/ament_cmake_core/mini_radi_descriptionConfig-version.cmake

@@ -1,0 +1,1 @@
+/home/kushagra/mini_radi_ws/build/mini_radi_gazebo/ament_cmake_core/mini_radi_gazeboConfig-version.cmake
