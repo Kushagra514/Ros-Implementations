@@ -25,3 +25,16 @@ Day 2 ->
 - Faced and debugged Gazebo startup/plugin and package installation issues.
 - Added `libgazebo_ros_factory.so` to enable the `/spawn_entity` service.
 - Successfully spawned `mini_radi` into Gazebo using `spawn_entity.py`.
+
+Day 3 ->
+
+- Tried debugging robot not spawning in gazebo did not come to a definite conclusion
+
+Day 4 ->
+
+- Fixed mini_radi robot spawning inside gazebo 
+- spawn even though was somehow causing the robot to fall through indefinitely leading to a large -z thus although the robot was spawning we did not see the same
+- tried a iterative test by spawning a static test box robot
+- added a reference in mini_radi_world which eventually robot to spawn at the specified z coordinate which was z = 1.0
+- apparently inertial and collision tags are necessary too for the robot to spawn got to this conclusion through reddit
+
