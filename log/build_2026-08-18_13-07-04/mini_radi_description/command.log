@@ -1,6 +1,0 @@
-Invoking command in '/home/kushagra/mini_radi_ws/build/mini_radi_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kushagra/mini_radi_ws/src/mini_radi_description -DCMAKE_INSTALL_PREFIX=/home/kushagra/mini_radi_ws/install/mini_radi_description
-Invoked command in '/home/kushagra/mini_radi_ws/build/mini_radi_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kushagra/mini_radi_ws/src/mini_radi_description -DCMAKE_INSTALL_PREFIX=/home/kushagra/mini_radi_ws/install/mini_radi_description
-Invoking command in '/home/kushagra/mini_radi_ws/build/mini_radi_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kushagra/mini_radi_ws/build/mini_radi_description -- -j7 -l7
-Invoked command in '/home/kushagra/mini_radi_ws/build/mini_radi_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kushagra/mini_radi_ws/build/mini_radi_description -- -j7 -l7
-Invoking command in '/home/kushagra/mini_radi_ws/build/mini_radi_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kushagra/mini_radi_ws/build/mini_radi_description
-Invoked command in '/home/kushagra/mini_radi_ws/build/mini_radi_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kushagra/mini_radi_ws/build/mini_radi_description

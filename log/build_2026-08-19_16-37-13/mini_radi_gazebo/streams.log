@@ -1,2 +1,0 @@
-[0.183s] Invoking command in '/home/kushagra/mini_radi_ws/build/mini_radi_gazebo': /usr/bin/cmake --build /home/kushagra/mini_radi_ws/build/mini_radi_gazebo -- -j7 -l7
-[0.224s] Invoked command in '/home/kushagra/mini_radi_ws/build/mini_radi_gazebo' returned '0': /usr/bin/cmake --build /home/kushagra/mini_radi_ws/build/mini_radi_gazebo -- -j7 -l7

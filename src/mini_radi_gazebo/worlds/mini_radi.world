@@ -3,13 +3,39 @@
 
   <world name="mini_radi_world">
 
-    <include>
-      <uri>model://ground_plane</uri>
-    </include>
+    <gravity>0 0 -9.81</gravity>
 
     <include>
       <uri>model://sun</uri>
     </include>
+
+    <model name="ground">
+
+      <static>true</static>
+
+      <link name="ground_link">
+
+        <collision name="ground_collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+        </collision>
+
+        <visual name="ground_visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+        </visual>
+
+      </link>
+
+    </model>
 
   </world>
 
