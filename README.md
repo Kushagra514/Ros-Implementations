@@ -37,8 +37,12 @@ Day 4 ->
 - tried a iterative test by spawning a static test box robot
 - added a reference in mini_radi_world which eventually robot to spawn at the specified z coordinate which was z = 1.0
 - apparently inertial and collision tags are necessary too for the robot to spawn got to this conclusion through reddit
-- referenced the sensor on lidar and got it working publishes to topic scan
+- referenced the sensor on lidar anxd got it working publishes to topic scan
 
 Day 5 ->
 
 - tried debugging the sensor mount on the lidar did not come to a definite conclusion
+
+Day 6 ->
+
+- debugging through another methods inconclusive 
