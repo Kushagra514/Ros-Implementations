@@ -268,5 +268,33 @@
     </sensor>
 
   </gazebo>
+  <gazebo>
+    <plugin 
+      name = "diff_drive"
+      filename = "libgazebo_ros_diff_drive.so"> 
 
+      <ros> 
+        <remapping>cmd_vel:=/cmd_vel</remapping>
+      </ros>
+
+      <update_rate>50.0</update_rate>
+
+      <left_joint>left_wheel_joint</left_joint>
+      <right_joint>right_wheel_joint</right_joint>
+
+      <wheel_seperation>0.95</wheel_seperation>
+      <wheel_diameter>0.44</wheel_diameter>
+
+      <max_wheel_torque>20</max_wheel_torque>
+      <max_wheel_acceleration>10</max_wheel_acceleration>
+
+      <publish_odom>true</publish_odom>
+      <publish_odom_tf>true</publish_odom_tf>
+
+      <odometry_frame>odom</odometry_frame>
+      <robot_base_frame>base_link</robot_base_frame>
+
+      <command_topic>cmd_vel</command_topic>
+    </plugin>
+  </gazebo>
 </robot>
