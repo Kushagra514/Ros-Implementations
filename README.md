@@ -46,3 +46,18 @@ Day 5 ->
 Day 6 ->
 
 - debugging through another methods inconclusive 
+
+Day 7 ->
+
+- added maze to navigate through by means of navigation algorithm
+
+- spawned robot mid maze
+
+- wrote navigation algorithm yet to test and debug depending 
+
+
+Day 8 ->
+
+- out of scope fixtures were dealt with 
+
+-
